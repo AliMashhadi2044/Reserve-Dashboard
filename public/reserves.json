@@ -1,0 +1,39 @@
+{
+    "message": "عملیات موفقیت آمیز بود",
+    "msgCode": 200,
+    "data": [
+        {
+            "_id": "649aeb602d0a0478697b5518",
+            "user": {
+                "_id": "649aeac52d0a0478697b54fc",
+                "fullName": "علی میلانی",
+                "phoneNumber": "09218779717",
+                "role": "USER",
+                "nationalCode": "0372237258",
+                "city": "آذربایجان غربی",
+                "organizationalPosition": "نامشخص",
+                "createdAt": "2023-06-27T13:57:25.070Z",
+                "updatedAt": "2023-06-27T13:57:25.070Z"
+            },
+            "startDate": "2023-07-12T20:30:00.000Z",
+            "endDate": "2023-07-17T20:30:00.000Z",
+            "suite": {
+                "_id": "649aeb212d0a0478697b550b",
+                "title": "اتاق دوم",
+                "totalBeds": 2,
+                "roomNumber": 2,
+                "facilities": "خیلی عالی و درجه یک قابلیت های فراوان",
+                "Meterage": 86,
+                "createdAt": "2023-06-27T13:58:57.965Z",
+                "updatedAt": "2023-06-27T14:09:08.606Z"
+            },
+            "travelCompanions": [
+                "649aeae52d0a0478697b5506",
+                "649aeae52d0a0473438697b5506"
+            ],
+            "createdAt": "2023-06-27T14:00:00.999Z",
+            "updatedAt": "2023-06-27T14:00:00.999Z"
+        }
+    ],
+    "info": "Reserves found successfully"
+}

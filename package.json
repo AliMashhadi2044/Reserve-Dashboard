@@ -1,0 +1,42 @@
+{
+  "name": "dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.3",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "jalali-moment": "^3.3.11",
+    "jwt-decode": "^3.1.2",
+    "material-icons": "^1.13.8",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2",
+    "vue-writer": "^1.2.0",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-persian-datetime-picker": "^1.2.2",
+    "vuesax3": "^4.1.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "postcss": "^8.4.25",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}

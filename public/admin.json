@@ -1,0 +1,16 @@
+{
+    "message": "عملیات موفقیت آمیز بود",
+    "msgCode": 200,
+    "data": [
+        {
+            "_id": "649aea272d0a0478697b54f5",
+            "fullName": "ali milania3",
+            "email": "i2nfo4@google112221.com",
+            "role": "ADMIN",
+            "createdAt": "2023-06-27T13:54:47.120Z",
+            "updatedAt": "2023-06-27T13:54:47.120Z",
+            "__v": 0
+        }
+    ],
+    "info": "admins found successfully"
+}

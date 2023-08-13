@@ -1,0 +1,129 @@
+.vs-button {
+    padding: 5px 10px !important;
+}
+
+.vs-table--td {
+    text-align: center;
+}
+
+.vs-table-text {
+    justify-content: center !important;
+}
+
+.vs-con-input, .input-select-con {
+    margin-top: 5px;
+}
+
+.vs-con-input input {
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+}
+
+/* custom scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Loader */
+
+.dbl-spinner {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #d8d8d8;
+}
+
+.dbl-spinner:nth-child(2) {
+    border: 3px solid transparent;
+    border-right: 3px solid rgb(31, 116, 255);
+    border-bottom: 3px solid rgb(31, 116, 255);
+    -webkit-animation: 0.7s spin linear infinite;
+    animation: 0.7s spin linear infinite;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/*  */
+.invalid-number input {
+    border: 1px solid red !important;
+    border-radius: 5px;
+}
+
+.invalid-number button {
+    background: rgb(242, 19, 93) !important;
+}
+
+
+/* time picker change */
+.vpd-prev, .vpd-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vpd-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vpd-icon-btn {
+    display: none !important;
+}
+
+.vpd-input-group input {
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    padding: 4px 5px !important;
+    border-radius: 5px !important;
+}
+
+.companionsTable .vs-table-primary {
+    width: 100%;
+}
+
+.con-vs-dialog .vs-dialog footer{
+    padding: 5px;
+}

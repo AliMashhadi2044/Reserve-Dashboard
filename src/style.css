@@ -1,0 +1,7 @@
+@import url('./assets/css/font-face.css');
+@import url('material-icons/iconfont/material-icons.css');
+@import url('assets/css/custom.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

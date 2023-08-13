@@ -1,0 +1,29 @@
+{
+    "message": "عملیات موفقیت آمیز بود",
+    "msgCode": 200,
+    "data": [
+        {
+            "_id": "649aeb092d0a23230478697b5509",
+            "title": "اتاق اول",
+            "totalBeds": 4,
+            "roomNumber": 1,
+            "facilities": "خیلی عالی و درجه یک قابلیت های فراوان",
+            "Meterage": 19,
+            "createdAt": "2023-06-27T13:58:33.273Z",
+            "updatedAt": "2023-06-27T14:08:54.666Z",
+            "__v": 0
+        },
+        {
+            "_id": "649aeb212ddfd30a0478697b550b",
+            "title": "اتاق دوم",
+            "totalBeds": 2,
+            "roomNumber": 2,
+            "facilities": "خیلی عالی و درجه یک قابلیت های فراوان",
+            "Meterage": 86,
+            "createdAt": "2023-06-27T13:58:57.965Z",
+            "updatedAt": "2023-06-27T14:09:08.606Z",
+            "__v": 0
+        }
+    ],
+    "info": "suites found successfully"
+}

@@ -1,0 +1,67 @@
+{
+    "message": "عملیات موفقیت آمیز بود",
+    "msgCode": 200,
+    "data": [
+        {
+            "_id": "4545632",
+            "fullName": "ali milania3",
+            "phoneNumber": "09218779717",
+            "role": "USER",
+            "nationalCode": "0372237258",
+            "city": "آذربایجان غربی",
+            "organizationalPosition": "نامشخص",
+            "createdAt": "2023-06-27T13:57:25.070Z",
+            "updatedAt": "2023-06-27T13:57:25.070Z",
+            "__v": 0
+        },
+        {
+            "_id": "763431123",
+            "fullName": "ali mashhadi",
+            "phoneNumber": "09218779717",
+            "role": "USER",
+            "nationalCode": "0372237258",
+            "city": "آذربایجان غربی",
+            "organizationalPosition": "نامشخص",
+            "createdAt": "2023-06-27T13:57:25.070Z",
+            "updatedAt": "2023-06-27T13:57:25.070Z",
+            "__v": 0
+        },
+        {
+            "_id": "65324263",
+            "fullName": "ali jafari",
+            "phoneNumber": "09218779717",
+            "role": "USER",
+            "nationalCode": "0372237258",
+            "city": "آذربایجان غربی",
+            "organizationalPosition": "نامشخص",
+            "createdAt": "2023-06-27T13:57:25.070Z",
+            "updatedAt": "2023-06-27T13:57:25.070Z",
+            "__v": 0
+        },
+        {
+            "_id": "4543434",
+            "fullName": "kian hajiali",
+            "phoneNumber": "09218779717",
+            "role": "USER",
+            "nationalCode": "0372237258",
+            "city": "آذربایجان غربی",
+            "organizationalPosition": "نامشخص",
+            "createdAt": "2023-06-27T13:57:25.070Z",
+            "updatedAt": "2023-06-27T13:57:25.070Z",
+            "__v": 0
+        },
+        {
+            "_id": "34342132",
+            "fullName": "sepehr ganji",
+            "phoneNumber": "09218779717",
+            "role": "USER",
+            "nationalCode": "0372237258",
+            "city": "آذربایجان غربی",
+            "organizationalPosition": "نامشخص",
+            "createdAt": "2023-06-27T13:57:25.070Z",
+            "updatedAt": "2023-06-27T13:57:25.070Z",
+            "__v": 0
+        }
+    ],
+    "info": "users found successfully"
+}
