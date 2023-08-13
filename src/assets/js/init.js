@@ -34,7 +34,7 @@ const setCompanionsDefault = (arr, allId) => {
   let result = []
   Object.values(allId).forEach((id) => {
     // result.push(arr.filter((item) => item._id == id))
-    let value = arr.filter((item) => item._id == id)[0];
+    let value = arr.filter((item) => item._id == id)[0]
     value && result.push(value)
   })
   return result
@@ -54,9 +54,13 @@ const authToken = (token) => {
       reject({ valid: false, msg: 'Invalid Token' })
     }
 
-    store.state.userInfo = {
-      fullName: decodeJWT.fullName,
-      id: decodeJWT.id,
+    if (decodeJWT.fullName && decodeJWT.id) {
+      store.state.userInfo = {
+        fullName: decodeJWT.fullName,
+        id: decodeJWT.id
+      }
+    } else {
+      reject({ valid: false, msg: 'Invalid Token' })
     }
 
     let nowDate = getTimestampInSeconds()
